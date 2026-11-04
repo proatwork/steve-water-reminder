@@ -2,6 +2,10 @@
 
 An ESP32 inside a big blocky-miner figurine that nags two kids to drink water.
 
+<p align="center">
+  <img src="README/web.png" width="600" alt="The device's web UI: playback buttons, configuration, water tracker, SD file manager and serial log">
+</p>
+
 - **Motion nag:** an ultrasonic sensor spots someone walking past, and Steve plays a random silly threat ("Without water you turn into a wrinkly cucumber! Drink water!").
 - **Water tracker:** each kid has a button. Pressing it after a drink bumps their counter and plays a random congratulation. The counters show on a Nokia 5110 LCD, with a crown over whoever's ahead.
 - **Web UI:** trigger sounds, change settings, adjust or reset counters, manage the audio files on the SD card, and read the live log.
@@ -235,11 +239,11 @@ If you rename on a device that's already running, also rename the keys inside `/
   <tr>
     <td align="center" width="50%">
       <img src="README/inside.jpg" width="320" alt="Wiring inside the head box"><br>
-      <sub>Inside the head: ESP32 on perfboard, speaker and amp module.</sub>
+      <sub>Inside the head: ESP32 on perfboard, SD card reader, speaker and amp module.</sub>
     </td>
     <td align="center" width="50%">
-      <img src="README/tracker.jpg" width="320" alt="Faceplate with LCD showing the sleep screen and two buttons"><br>
-      <sub>The water tracker panel showing the sleep screen: a dozing creeper and both kids' counts.</sub>
+      <img src="README/tracker.jpg" width="320" alt="Scoreboard faceplate with LCD showing both counts and two buttons"><br>
+      <sub>The scoreboard: both kids' water counts and their buttons.</sub>
     </td>
   </tr>
 </table>
