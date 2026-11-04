@@ -1,0 +1,8 @@
+.env
+node_modules/
+arduino/secrets.h
+output/
+output_wav/
+voices_test/
+.DS_Store
+ctx.md
